@@ -278,11 +278,11 @@ body::before {
   position: absolute;
   font-family: 'Raleway', sans-serif;
   
-  font-size :80px;
+  font-size :4vw;
   padding-left: 4.1vh;
   width: 105%;
   left:-1.4%;
-  border-bottom: 9px rgba(0, 136, 169,1) solid;
+  border-bottom: 1vw rgba(0, 136, 169,1) solid;
   font-weight:bold;
   color: rgba(255, 255,255,.8);
   background-color: #24252A;
@@ -340,6 +340,11 @@ body::before {
   padding-left: 5%;
 
 }
+.rows{
+  box-sizing: border-box;
+  display: inline-block;
+  margin-top: 3%;
+}
 .main-title{
   
   z-index: 108;
@@ -381,6 +386,7 @@ body::before {
   position: relative;
   justify-content: center;
   height: 100vh;
+  padding-top: 10%;
 }
 .founders-wrapper .card{
   overflow: hidden;
