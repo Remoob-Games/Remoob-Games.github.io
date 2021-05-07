@@ -80,9 +80,9 @@ header{
     align-self: left;
     cursor: pointer;
     background: rgba(0,0,0,0);
-    width: 80px;
-    height: 70px;
-    margin-left: -50%;
+    width: 3vw;
+    height: 2.5vw;
+    margin-left: -4vw;
 
  
 
@@ -172,20 +172,25 @@ div.sticky:not(#subtitle-id ,.subtitle , .subtitle a){
 
 
 button{
-    padding: 9px , 30px;
-    padding-right: 14px;
-    padding-left: 14px;
-    
+  opacity: 10%;
+  position: absolute;
+    font-size: 1.4vw;
+    padding-right: .4vw;
+    padding-left: .4vw;
+  
+
+    right: 3%;
+    bottom: 27.5%;
     background-color: rgba(0, 136, 169,1);
     border : none;
-    border-radius: 12px;
+    border-radius: 1vw;
     cursor:pointer;
     background-image:none;
     transition: all 0.3s ease 0s;
 
 }
 button:hover{
-   
+    opacity: 100%;
     background-color : rgba(0,136,169,0.8)
     
 }
