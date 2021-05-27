@@ -270,12 +270,12 @@ body::before {
 
 }
 .upper-subtitles{
+  color: rgba(0, 136, 169,.8);
   display: inline-block;
   font-size :8.2vh;
   font-weight: bold;
   text-align: left;
-  padding-bottom: 40px;
-  padding-top: 100px;
+
 }
 
 .regular{
@@ -298,10 +298,8 @@ body::before {
 .regular-text{
   display: inline-block;
   font-weight: lighter;
-  font-size: 60px;
-  padding: 100px;
-  padding-left: 100px;
-  padding-bottom: 100px;
+  font-size: 12vw;
+
 }
   /* Clear floats after the columns */
 .row:after {
@@ -358,7 +356,7 @@ body::before {
 }
 .content3{
   background-color: #23292F;
-  border-radius:200px;
+  border-radius:10vw;
 }
 .founders-wrapper{
   overflow: hidden;
@@ -366,21 +364,23 @@ body::before {
   align-items: center;
   position: relative;
   justify-content: center;
-  height: 100vh;
+  height: 80vh;
 }
 .founders-wrapper .card{
   overflow: hidden;
   z-index: 1;
   border:8px solid rgba(0, 136, 169,.8);
+  
   background: rgba(24, 28, 32,.8);
-  height: 600px;
-  width: 400px;
+  height: 75%;
+  width: 80%;
   display:flex;
   opacity: 0;
+  margin-top: 35%;
   pointer-events: none;
   position: absolute;
   justify-content: space-between;
-  padding: 20px;
+  padding: 20vw;
   border-radius: 40px;
   filter:drop-shadow(0px 0px 1vw rgba(0, 0, 0, 0.6));
   animation: animate 15s ease-in-out infinite;
@@ -417,14 +417,18 @@ body::before {
   
 }
 .founders-wrapper .card .img{
-  height: 55vw;
-  width: 55vw;
-  margin-left:80px;
-  margin-bottom: 390px;
   position:absolute;
+  
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+  width: 22vh;
+  bottom: 55%;
+
   background-color: rgba(0, 136, 169,.8);
   border-radius: 50%;
-  padding: 5px;
+  padding: 2%;
   filter:drop-shadow(0px 0px 1vw rgba(0, 0, 0, 0.4));
 
 
@@ -435,6 +439,7 @@ body::before {
 
 .card .img img{
   
+  
   height: 100%;
   width: 100%;  
   border-radius: 50%;
@@ -444,33 +449,34 @@ body::before {
 .cta{
   opacity: 0%;
 }
+
 .card .card-content{
+  position:absolute;
   width: 100%;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
   height: 100%;
   display: flex;
   align-items: center;
 
+
 }
+
 .card .details{
+  position: absolute;
   text-align: center;
-  display: inline-block;
-  background-color: none;
-  margin-top:400px ;
-  margin-left: 30px;
-  width: 500px;
+  top:50%;
+  right: 10%;
+  left: 10%;
+  bottom: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  
 }
-.card .follow{
-  text-align: center;
-  display: block;
-  width: 100%;
-
-  background-color: none;
-  margin-top:580px ;
-  margin-left: -550px;
-  padding: 10%;
-
-  background-color: #0088a9;
-  border-radius: 45px;
+.detail-dec{
+  font-size: 24px;
 }
 .contact-links{
   overflow: hidden;
@@ -479,6 +485,7 @@ body::before {
   justify-content: center;
 }
 .contact-app{
+  opacity:0;
   margin-left: 0.8vw;
   margin-right: 0.8vw;
   float:left;
