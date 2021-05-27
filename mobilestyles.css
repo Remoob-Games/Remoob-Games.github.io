@@ -94,6 +94,9 @@ header{
     background-image: none;
     background-color: #24252A;    
     text-align: center;
+    position: relative;
+    margin-left: 100%;
+    padding:1vw;
 }
 .nav__links li{
 
