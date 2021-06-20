@@ -200,7 +200,7 @@ body::before {
     margin-top: 1%;
     margin-bottom: 1%;
     border-radius: 5%;
-    filter:drop-shadow(4.7vh 4.7vh 0.1rem  rgba(0, 0, 0, 0.3));
+
     transition: all 1s ease 0s;
 
 }
@@ -218,7 +218,6 @@ body::before {
     margin-top: 1%;
     margin-bottom: 1%;
     border-radius: 5%;
-    filter:drop-shadow(4.7vh 4.7vh 0.1rem  rgba(0, 0, 0, 0.3));
     transition: all 1s ease 0s;
 
 }

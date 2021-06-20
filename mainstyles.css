@@ -223,8 +223,10 @@ body::before {
     margin-top: 10%;
     margin-bottom: 10%;
     border-radius: 5%;
-    filter:drop-shadow(4.7vw 4.7vw 0.1rem  rgba(0, 0, 0, 0.3));
     transition: all 1s ease 0s;
+    outline-style:solid;
+    outline-width: 1vw;
+    outline-color:#0088a9;
 
 }
 .image-left:hover{
@@ -237,9 +239,11 @@ body::before {
     margin-top: 10%;
     margin-bottom: 10%;
     border-radius: 5%;
-    filter:drop-shadow(4.7vw 4.7vw 0.1rem  rgba(0, 0, 0, 0.3));
     transition: all 1s ease 0s;
     margin-left: 3vw;
+    outline-style:solid;
+    outline-width: 1vw;
+    outline-color:#0088a9;
 }
 .image-right:hover{
   border-radius: 25%;
