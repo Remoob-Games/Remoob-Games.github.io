@@ -224,9 +224,7 @@ body::before {
     margin-bottom: 10%;
     border-radius: 5%;
     transition: all 1s ease 0s;
-    outline-style:solid;
-    outline-width: 1vw;
-    outline-color:#0088a9;
+
 
 }
 .image-left:hover{
@@ -241,9 +239,7 @@ body::before {
     border-radius: 5%;
     transition: all 1s ease 0s;
     margin-left: 3vw;
-    outline-style:solid;
-    outline-width: 1vw;
-    outline-color:#0088a9;
+
 }
 .image-right:hover{
   border-radius: 25%;
