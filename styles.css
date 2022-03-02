@@ -139,6 +139,7 @@ header.sticky .logo{
     align-self: center;
     align-content: center;
     text-align: center;
+    background: linear-gradient(#01060e 0%, #0f1a29 50%, #01060e 100%)
 }
 
 .uwf{
@@ -199,6 +200,10 @@ header.sticky .logo{
 
 .gamec:hover{
     color: #743986;
+}
+
+footer{
+    background: #743986;
 }
 
   
