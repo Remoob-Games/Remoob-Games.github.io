@@ -39,6 +39,24 @@ h3{
     font-size: 48px;
 }
 
+.socials li{
+    display: inline-block;
+    padding: 0px 2px;
+}
+
+.socials li a{
+    transition:  all 0.3s ease 0s;
+}
+
+.socials li a:hover{
+    color: #743986;
+}
+
+
+.cta{
+    padding: 0% 30%;
+}
+
 li, a, button{
     position: relative;
     font-family: 'Montserrat', sans-serif;
@@ -65,6 +83,10 @@ header{
 header.sticky{
     padding: 5px 100px;
     background-color: white;
+}
+
+.nav_links{
+    pad: 0px 0px;
 }
 
 .nav_links li{
@@ -138,10 +160,7 @@ header.sticky .logo{
     align-self: center;
     text-align: center;
 }
-
-.links{
-    
-}
+   
 
 .games{
     align-self: center;
