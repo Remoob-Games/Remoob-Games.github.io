@@ -5,14 +5,15 @@
     margin: 0;
     padding: 0;
     font-size: 24px;
+    align-items: center;
     scroll-behavior: smooth;
 }
 
 
 body{
-    background-color: #75979f;
+    background-color: #387573;
     color:white;
-    min-height: 200vh;
+    align-items: center;
     
 }
 
@@ -82,7 +83,7 @@ header.sticky{
 }
 
 .nav_links{
-    pad: 0px 0px;
+    padding: 0px 0px;
 }
 
 .nav_links li{
@@ -126,22 +127,26 @@ main{
     height: 100vh;
     background: url(images/bg.png);
     background-size: cover;
+    background-position:center center;
     align-items: center;
     background-position: center;
     font-family: 'Montserrat', sans-serif;
 }
 
+.content{
+    padding-left: 15%;
+}
+
 .plogo{
     display: block;
-    margin: auto;
     align-items: center;
     transform: translateY(50%);
-    
-
+    margin-left: 5;
 }
 .slogo{
     display: block;
     margin: auto;
+    margin-top: 5%;
     align-items: center;
     transform: translateY(350%);
     
@@ -149,8 +154,8 @@ main{
 
 .trailer{
     display: block;
-    margin: auto;
     transform: translateY(50%);
+    margin-top: 64;
 }
 
 header.sticky ul li a{
@@ -165,4 +170,13 @@ header.sticky .logo{
     align-self: center;
     text-align: center;
     padding: 15%;
+    margin-top: 15%;
+}
+
+.roadmap{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 47%;
+    margin-bottom: 15%;
 }
